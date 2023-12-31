@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-950  py-12 px-48  ">
+    <div className="bg-gray-950  py-12 px-4 md:px-48  ">
       <div className="flex md:flex-row flex-col  md:justify-between justify-center md:space-y-0  space-y-8 ">
         <Link href={"/"}>
           <picture>

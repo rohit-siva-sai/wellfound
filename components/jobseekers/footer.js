@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='grid grid-cols-5 py-12 px-24 '>
+    <div className='grid grid-cols-3 gap-y-6 md:gap-y-0 md:grid-cols-5 py-12 px-4  md:px-24 '>
       <div className='flex flex-col space-y-3'>
         <Link href={""}>
           <p className='hover:text-gray-600 text-gray-500 -outline-offset-4 font-semibold hover:underline'>Plagiarism Detection</p>

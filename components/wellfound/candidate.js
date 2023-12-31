@@ -2,8 +2,8 @@ import React from "react";
 
 const Candidate = () => {
   return (
-    <div className="grid grid-cols-2 gap-x-12 justify-items-center py-12 px-24">
-      <div className="w-3/4 flex flex-col space-y-11 self-center">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-y-0 md:gap-x-12 justify-items-center py-6 md:py-12 px-4 md:px-24">
+      <div className="md:w-3/4 flex flex-col space-y-11 self-center">
         <p className="font-semibold text-4xl">
           Unique candidate details you can't find anywhere else
         </p>

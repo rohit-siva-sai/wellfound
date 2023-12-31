@@ -2,7 +2,7 @@ import React from 'react'
 
 const Calendly = () => {
   return (
-    <div className='grid grid-cols-2 justify-items-center py-12 bg-gradient-to-r from-[#FAACA8] to-[#DDD6F3] px-24'>
+    <div className='grid grid-cols-1 gap-y-6 md:gap-y-0 md:grid-cols-2 justify-items-center py-12 bg-gradient-to-r from-[#FAACA8] to-[#DDD6F3] px-4 md:px-24'>
        <div className='flex flex-col space-y-5 w-3/4 self-center'>
         <p className='uppercase font-semibold text-rose-500'>find the right place for you</p>
         <p className='font-semibold text-5xl  '>Pricing designed to give you the best return</p>

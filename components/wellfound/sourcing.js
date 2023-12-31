@@ -2,7 +2,7 @@ import React from "react";
 
 const Sourcing = () => {
   return (
-    <div className="grid grid-cols-2 gap-x-12 justify-items-center py-12 px-24">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6 md:gap-y-0 gap-x-12 justify-items-center py-4 border-t md:border-none md:py-12 px-4 md:px-24">
    
       <div>
         <picture>
@@ -13,7 +13,7 @@ const Sourcing = () => {
           />
         </picture>
       </div>
-      <div className="w-3/4 flex flex-col space-y-11 self-center">
+      <div className="md:w-3/4 flex flex-col space-y-11 self-center">
         <p className="font-semibold text-4xl">
          Turn 8 hours of sourcing into 20 minutes
         </p>

@@ -26,14 +26,14 @@ const array = [
 
 const Resources = () => {
   return (
-    <div className='py-10 px-24 flex flex-col space-y-8'>
+    <div className='py-5 md:py-10 px-4 md:px-24 flex flex-col space-y-6 md:space-y-8'>
       <p className='font-semibold text-2xl text-gray-400 text-center'>Resources</p>
-      <div className='flex justify-center space-x-10'>
+      <div className='flex flex-wrap justify-center  md:space-y-0 md:space-x-10'>
         {array.map((item)=>{
             return (
-                <div className='w-56 border flex flex-col justify-between space-y-4 pb-4 shadow  transition-all duration-300 hover:scale-105 cursor-pointer'>
+                <div className='w-36 md:w-56 border mt-6 md:mt-0 flex flex-col justify-between space-y-4 pb-4 shadow  transition-all duration-300 hover:scale-105 cursor-pointer mx-6'>
                     <picture>
-                        <img src={item.image} alt="" className='w-56' />
+                        <img src={item.image} alt="" className='w-36 md:w-56' />
                     </picture>
                     <p className='font-semibold px-2 text-gray-600'>{item.heading}</p>
                    <p className='px-3 font-semibold text-green-600'>Read More</p>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Faq = () => {
   return (
-    <div className='px-48 py-12 flex flex-col space-y-6'>
+    <div className='md:px-48 px-4 py-6 md:py-12 flex flex-col space-y-6'>
       <p className='text-4xl font-bold'>FAQ</p>
       <div className='w-10/12 flex flex-col space-y-8'>
       <div className='flex flex-col space-y-3'>

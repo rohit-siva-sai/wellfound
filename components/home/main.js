@@ -3,10 +3,10 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <div className='px-24 flex flex-col space-y-16 pt-16'>
-      <p className='text-5xl font-semibold'>Learning today, leading tomorrow</p>
-      <div className='grid grid-cols-2 gap-x-10'>
-        <div className='border rounded flex flex-col space-y-8 pl-6 pr-28 py-8'>
+    <div className='px-4 md:px-24 flex flex-col space-y-8 md:space-y-16 pt-8 md:pt-16'>
+      <p className='text-4xl md:text-5xl font-semibold'>Learning today, leading tomorrow</p>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-y-4 md:gap-y-0 gap-x-10'>
+        <div className='border rounded flex flex-col space-y-8 pl-6 pr-8 md:pr-28 py-8'>
             <p className='font-semibold text-gray-400 uppercase text-lg'>preparation kits</p>
             <div className='flex flex-col space-y-4 '>
                 <p className='font-bold text-gray-800 text-4xl'>Interview Preparation Kit</p>
@@ -18,7 +18,7 @@ const Main = () => {
                 </div>
             </Link>
         </div>
-        <div className='border rounded flex flex-col space-y-8 pl-6 pr-28 py-8'>
+        <div className='border rounded flex flex-col space-y-8 pl-6 pr-8 md:pr-28 py-8'>
             <p className='font-semibold text-gray-400 uppercase text-lg'>new skill</p>
             <div className='flex flex-col space-y-4 '>
                 <p className=' text-4xl text-gray-800 font-bold'>Add your first skill</p>
@@ -33,18 +33,18 @@ const Main = () => {
       </div>
       <div className='flex items-center justify-between '>
         <picture>
-            <img src="https://pngimg.com/uploads/amazon/amazon_PNG28.png" alt="" className='w-36' />
+            <img src="https://pngimg.com/uploads/amazon/amazon_PNG28.png" alt="" className='w-16 md:w-36' />
         </picture>
         <picture>
             <img src="https://bradthor.com/wp-content/uploads/2014/02/BT-RetailerLogos-Retina-GrayScale-WalMart-300x177.png" alt=""
-            className='w-48' />
+            className='w-24 md:w-48' />
         </picture>
         <picture>
             <img src="https://www.scotlandis.com/wp-content/uploads/2019/10/accenture.png" alt=""
-            className='w-48' />
+            className='w-24 md:w-48' />
         </picture>
         <picture>
-            <img src="https://pngimg.com/uploads/amazon/amazon_PNG28.png" alt="" className='w-36' />
+            <img src="https://pngimg.com/uploads/amazon/amazon_PNG28.png" alt="" className='w-16 md:w-36' />
         </picture>
       </div>
     </div>
